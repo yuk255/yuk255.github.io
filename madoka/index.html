@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/index.css" />
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="mask"></div>
+      <div class="fade-container box"></div>
+
+      <div class="audio-box">
+        <audio id="audio" src="./assets/file/1.mp3" controls></audio>
+        <p id="title_p">梶浦由記 - Never leave you alone</p>
+      </div>
+
+      <div class="col_time">
+        <div class="time">
+          <span id="time">111</span><br />
+          <span id="time_day">111</span>
+        </div>
+      </div>
+
+      <div class="setting">
+        <p>控制面板</p>
+        <ul>
+          <li>
+            <p>音乐设置</p>
+            <div>
+              <span>音量</span>
+              <input type="range" class="volumeChange" />
+              <span class="text audioText"></span>
+            </div>
+          </li>
+          <li>
+            <p>背景图设置</p>
+            <div>
+              <span>速度</span>
+              <input type="range" class="speedChange" min="1" />
+              <span class="text speedText"></span>
+            </div>
+            <div>
+              <span>遮罩</span>
+              <input type="range" class="maskChange" />
+              <span class="text maskText"></span>
+            </div>
+            <div>
+              <span>模糊</span>
+              <input type="range" class="blurChange" />
+              <span class="text blurText"></span>
+            </div>
+            <div id="imgTarget">
+              <button id="stopSwiper">固定为当前壁纸</button>
+              <button id="startSwiper">继续循环</button>
+            </div>
+          </li>
+          <!-- <li>
+            <p>时间文字</p>
+            <div>
+              <span>颜色</span>
+              <input
+                type="color"
+                id="myColorPicker"
+                class="colorPick musicColor"
+              />
+            </div>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
