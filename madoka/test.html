@@ -7,10 +7,15 @@
   </head>
   <body>
     <input type="text" class="text" />
+    <button>copy</button>
 
     <script>
-        var text = document.getElementsByClassName('text').value
-      navigator.clipboard
+        var text = document.getElementsByClassName('text')[0].value
+
+        var btn = document.getElementsByTagName('button')[0]
+
+        btn.addEventListener('click', ()=>{
+            navigator.clipboard
         .writeText(text)
         .then(() => {
           console.log('复制成功！')
@@ -18,6 +23,9 @@
         .catch((error) => {
           console.log('复制失败：' + error)
         })
+        })
+
+      
     </script>
   </body>
 </html>
