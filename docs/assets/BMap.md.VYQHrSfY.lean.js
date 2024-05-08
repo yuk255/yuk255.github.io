@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a1 as n}from"./chunks/framework.DDQHAUqM.js";const c=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"BMap.md","filePath":"BMap.md"}'),h={name:"BMap.md"},k=n("",15),p=[k];function l(t,e,E,r,d,g){return a(),i("div",null,p)}const F=s(h,[["render",l]]);export{c as __pageData,F as default};

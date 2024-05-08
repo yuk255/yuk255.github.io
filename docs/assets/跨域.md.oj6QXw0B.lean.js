@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a1 as n}from"./chunks/framework.DDQHAUqM.js";const y=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"跨域.md","filePath":"跨域.md"}'),h={name:"跨域.md"},l=n("",12),k=[l];function p(t,e,E,r,d,g){return a(),i("div",null,k)}const o=s(h,[["render",p]]);export{y as __pageData,o as default};

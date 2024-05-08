@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a1 as n}from"./chunks/framework.DDQHAUqM.js";const c=JSON.parse('{"title":"事件","description":"","frontmatter":{},"headers":[],"relativePath":"setup.md","filePath":"setup.md"}'),h={name:"setup.md"},l=n("",78),t=[l];function p(k,e,E,r,d,g){return a(),i("div",null,t)}const o=s(h,[["render",p]]);export{c as __pageData,o as default};
